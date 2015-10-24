@@ -11,9 +11,36 @@ body {
 }
 
 .full {
-  background: url(http://placehold.it/1920x1080) no-repeat center center fixed; 
+  background: url('../img/bg1.jpg') no-repeat center center fixed !important; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.headline {
+	color: white !important;
+	font-weight: bolder !important;
+	text-shadow: 2px 2px 5px black !important;
+	
+}
+
+.headline2 {
+	color: white !important;
+	font-weight: bolder !important;
+	
+}
+
+.bodyText {
+	color:#c7c7c7 !important;
+	text-align: justify
+}
+
+.copy {
+	width: 335px;
+	padding-left: 20px;
+}
+
+.col-xs-12 {
+	background-color: #89C2DF !important;
 }
